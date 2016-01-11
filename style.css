@@ -1,0 +1,41 @@
+body {
+  background-color: yellow;
+}
+
+.image {
+  background-image: url("Tread.jpeg");
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border: 5px solid green;
+  background-size: cover;
+}
+
+@media all and (min-width: 480px) {
+
+  body {
+    background-color: lavender;
+  }
+  .image {
+    background-image: url("images.jpeg");
+    border: 5px solid pink;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  
+  body {
+    background-color: orange;
+  }
+
+  .image {
+    background-image: url("blackboard.jpeg");
+    margin-left: 5px;
+    border: solid yellow;
+  
+  }
+}
